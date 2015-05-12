@@ -1,5 +1,14 @@
-#ifndef __I2S_AUDIO_H
-#define __I2S_AUDIO_H
+/**
+ * @file         microphone.h
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
+#ifndef __MICROPHONE_H
+#define __MICROPHONE_H
 
 #include "stm32f4xx.h"
 #include "main.h"

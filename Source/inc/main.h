@@ -1,3 +1,12 @@
+/**
+ * @file         main.h
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+
 #ifndef __MAIN_H
 #define __MAIN_H
 

@@ -1,4 +1,13 @@
-#include <main.h>
+/**
+ * @file         headphone.c
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
+ #include <main.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

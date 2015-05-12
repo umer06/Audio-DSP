@@ -1,5 +1,13 @@
-#ifndef __WAVE_PLAYER_H
-#define __WAVE_PLAYER_H
+/**
+ * @file         headphone.h
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+#ifndef __HEADPHONE_H
+#define __HEADPHONE_H
 
 #include "main.h"
 
@@ -53,6 +61,5 @@ uint16_t EVAL_AUDIO_GetSampleCallBack(void);
  * impossible to talk. Big fun!
  */
 static void fill_buffer (int16_t *buffer, int num_samples);
-
 
 #endif

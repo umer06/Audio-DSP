@@ -1,3 +1,12 @@
+/**
+ * @file         dsp.c
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
 // local includes
 #include <dsp.h>
 

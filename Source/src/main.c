@@ -1,4 +1,13 @@
-#include "main.h"
+/**
+ * @file         main.c
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
+ #include "main.h"
 
 RCC_ClocksTypeDef RCC_Clocks;
 extern volatile uint8_t LED_Toggle;

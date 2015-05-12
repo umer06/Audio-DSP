@@ -1,3 +1,12 @@
+/**
+ * @file         microphone.c
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
 #include "main.h"
 #include "pdm_filter.h"
 #include "microphone.h"
