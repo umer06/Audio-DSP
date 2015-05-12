@@ -1,0 +1,642 @@
+Dependencies for Project 'Audio-DSP', Target 'Audio-DSP': (DO NOT MODIFY !)
+F (..\src\main.c)(0x55526237)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\main.o --omf_browse .\audio-dsp\main.crf --depend .\audio-dsp\main.d)
+I (..\inc\main.h)(0x554FE002)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x554FEA59)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\inc\stm32f4xx_it.h)(0x53F6B2FC)
+I (..\inc\headphone.h)(0x555038DE)
+I (..\inc\microphone.h)(0x55503B46)
+I (..\..\Utilities\STM32F4-Discovery\pdm_filter.h)(0x53F6B2FC)
+F (..\src\stm32f4xx_it.c)(0x554FE926)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_it.o --omf_browse .\audio-dsp\stm32f4xx_it.crf --depend .\audio-dsp\stm32f4xx_it.d)
+I (..\inc\main.h)(0x554FE002)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x554FEA59)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\inc\stm32f4xx_it.h)(0x53F6B2FC)
+I (..\inc\headphone.h)(0x555038DE)
+I (..\inc\microphone.h)(0x55503B46)
+I (..\..\Utilities\STM32F4-Discovery\pdm_filter.h)(0x53F6B2FC)
+F (..\src\system_stm32f4xx.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\system_stm32f4xx.o --omf_browse .\audio-dsp\system_stm32f4xx.crf --depend .\audio-dsp\system_stm32f4xx.d)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\src\headphone.c)(0x55526D11)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\headphone.o --omf_browse .\audio-dsp\headphone.crf --depend .\audio-dsp\headphone.d)
+I (..\inc\main.h)(0x554FE002)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x554FEA59)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\inc\stm32f4xx_it.h)(0x53F6B2FC)
+I (..\inc\headphone.h)(0x555038DE)
+I (..\inc\microphone.h)(0x55503B46)
+I (..\..\Utilities\STM32F4-Discovery\pdm_filter.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54765570)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\math.h)(0x5476556E)
+I (..\inc\dsp.h)(0x55526426)
+F (..\src\microphone.c)(0x55526EAC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\microphone.o --omf_browse .\audio-dsp\microphone.crf --depend .\audio-dsp\microphone.d)
+I (..\inc\main.h)(0x554FE002)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x53F6B2FC)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x554FEA59)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\inc\stm32f4xx_it.h)(0x53F6B2FC)
+I (..\inc\headphone.h)(0x555038DE)
+I (..\inc\microphone.h)(0x55503B46)
+I (..\..\Utilities\STM32F4-Discovery\pdm_filter.h)(0x53F6B2FC)
+F (..\src\dsp.c)(0x55527583)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\dsp.o --omf_browse .\audio-dsp\dsp.crf --depend .\audio-dsp\dsp.d)
+I (..\inc\dsp.h)(0x55526426)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\arm_math.h)(0x55508605)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\math.h)(0x5476556E)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54765570)
+F (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4_discovery.o --omf_browse .\audio-dsp\stm32f4_discovery.crf --depend .\audio-dsp\stm32f4_discovery.d)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4_discovery_audio_codec.o --omf_browse .\audio-dsp\stm32f4_discovery_audio_codec.crf --depend .\audio-dsp\stm32f4_discovery_audio_codec.d)
+I (..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x554FEA59)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Utilities\STM32F4-Discovery\libPDMFilter_Keil.lib)(0x53F6B2FC)()
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\misc.o --omf_browse .\audio-dsp\misc.crf --depend .\audio-dsp\misc.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_syscfg.o --omf_browse .\audio-dsp\stm32f4xx_syscfg.crf --depend .\audio-dsp\stm32f4xx_syscfg.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_dac.o --omf_browse .\audio-dsp\stm32f4xx_dac.crf --depend .\audio-dsp\stm32f4xx_dac.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_dma.o --omf_browse .\audio-dsp\stm32f4xx_dma.crf --depend .\audio-dsp\stm32f4xx_dma.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_gpio.o --omf_browse .\audio-dsp\stm32f4xx_gpio.crf --depend .\audio-dsp\stm32f4xx_gpio.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_i2c.o --omf_browse .\audio-dsp\stm32f4xx_i2c.crf --depend .\audio-dsp\stm32f4xx_i2c.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_rcc.o --omf_browse .\audio-dsp\stm32f4xx_rcc.crf --depend .\audio-dsp\stm32f4xx_rcc.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_spi.o --omf_browse .\audio-dsp\stm32f4xx_spi.crf --depend .\audio-dsp\stm32f4xx_spi.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I..\inc -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Utilities\Third_Party\fat_fs\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Utilities\STM32F4-Discovery-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\audio-dsp\stm32f4xx_exti.o --omf_browse .\audio-dsp\stm32f4xx_exti.crf --depend .\audio-dsp\stm32f4xx_exti.d)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53F6B2FC)
+I (..\inc\stm32f4xx_conf.h)(0x554FD119)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x53F6B2FC)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x53F6B2FC)
+F (..\..\Libraries\CMSIS\ST\STM32F4xx\Source\Templates\arm\startup_stm32f4xx.s)(0x53F6B2FC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 514" --pd "STM32F407xx SETA 1"--list .\startup_stm32f4xx.lst --xref -o .\audio-dsp\startup_stm32f4xx.o --depend .\audio-dsp\startup_stm32f4xx.d)
+F (..\..\Libraries\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x53F6B2FC)()
