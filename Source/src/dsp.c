@@ -77,7 +77,7 @@ void initFilter()
 		arm_fir_init_q15(&DTMF_FIR, NUM_FIR_TAPS, &hfir_coeffs_q15_hp[0], &hfir_state_q15[0], BLOCKSIZE);
 }
 
-/* --> Below the previous filter implementation with the arm cmsis library
+/* --> Below the implementation of an iir filter function without the arm cmsis library
 // local includes
 #include "dsp.h"
  
