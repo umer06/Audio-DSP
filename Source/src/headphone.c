@@ -7,7 +7,7 @@
  * @copyright    Christoph Lauer engineering
  */
  
- #include <main.h>
+#include <main.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

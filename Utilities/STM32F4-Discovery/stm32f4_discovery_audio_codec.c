@@ -240,9 +240,8 @@ static void     Codec_GPIO_DeInit(void);
 static void     Delay(__IO uint32_t nCount);
 /*----------------------------------------------------------------------------*/
 
-/*-----------------------------------
                    MAL (Media Access Layer) functions 
-                                    ------------------------------------------*/
+
 /* Peripherals configuration functions */
 static void     Audio_MAL_Init(void);
 static void     Audio_MAL_DeInit(void);
