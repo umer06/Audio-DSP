@@ -1,0 +1,33 @@
+Dependencies for Project 'arm_cortexM4lf_signal_converge_example', Target 'Target 1': (DO NOT MODIFY !)
+F (..\arm_signal_converge_data.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL --li -g -O2 -Otime --apcs=interwork -I..\..\..\..\Include -I..\..\Common\Include -I..\..\..\..\..\Device\ARM\ARMCM4\Include-I "Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DARMCM4_FP -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\debug\arm_signal_converge_data.o --omf_browse .\debug\arm_signal_converge_data.crf --depend .\debug\arm_signal_converge_data.d)
+I (..\..\..\..\Include\arm_math.h)(0x55508605)
+I (..\..\..\..\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\..\..\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\math.h)(0x5476556E)
+F (..\arm_signal_converge_example_f32.c)(0x555A356A)(-c --cpu Cortex-M4.fp -D__EVAL --li -g -O2 -Otime --apcs=interwork -I..\..\..\..\Include -I..\..\Common\Include -I..\..\..\..\..\Device\ARM\ARMCM4\Include-I "Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DARMCM4_FP -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\debug\arm_signal_converge_example_f32.o --omf_browse .\debug\arm_signal_converge_example_f32.crf --depend .\debug\arm_signal_converge_example_f32.d)
+I (..\..\..\..\Include\arm_math.h)(0x55508605)
+I (..\..\..\..\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\..\..\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\math.h)(0x5476556E)
+I (..\..\Common\Include\math_helper.h)(0x53F6B2FC)
+F (..\..\Common\Source\math_helper.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL --li -g -O2 -Otime --apcs=interwork -I..\..\..\..\Include -I..\..\Common\Include -I..\..\..\..\..\Device\ARM\ARMCM4\Include-I "Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DARMCM4_FP -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\debug\math_helper.o --omf_browse .\debug\math_helper.crf --depend .\debug\math_helper.d)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\math.h)(0x5476556E)
+I (..\..\Common\Include\math_helper.h)(0x53F6B2FC)
+I (..\..\..\..\Include\arm_math.h)(0x55508605)
+I (..\..\..\..\Include\core_cm4.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\..\..\..\Include\core_cmInstr.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cmFunc.h)(0x53F6B2FC)
+I (..\..\..\..\Include\core_cm4_simd.h)(0x53F6B2FC)
+I (C:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+F (..\system_ARMCM4.c)(0x53F6B2FC)(-c --cpu Cortex-M4.fp -D__EVAL --li -g -O2 -Otime --apcs=interwork -I..\..\..\..\Include -I..\..\Common\Include -I..\..\..\..\..\Device\ARM\ARMCM4\Include-I "Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DARMCM4_FP -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\debug\system_armcm4.o --omf_browse .\debug\system_armcm4.crf --depend .\debug\system_armcm4.d)
+F (.\startup_ARMCM4.s)(0x53F6B2FC)(--cpu Cortex-M4.fp --li --pd "__EVAL SETA 1" -g --apcs=interwork -I "Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE"-I "C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0"-I "C:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 514" --pd "ARMCM4_FP SETA 1"--list .\debug\startup_armcm4.lst --xref -o .\debug\startup_armcm4.o --depend .\debug\startup_armcm4.d)
+F (..\..\..\..\Lib\ARM\arm_cortexM4lf_math.lib)(0x53F6B2FC)()

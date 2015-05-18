@@ -17,26 +17,31 @@ Library Manager: ArmAr.exe V5.05 update 1 (build 106)
 Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
 CPU DLL:         SARMCM3.DLL V5.14.0.0
 Dialog DLL:      DCM.DLL V1.13.1.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Target DLL:      UL2CM3.DLL V1.155.0.0
 Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
-\\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\Audio-DSP.uvprojx
-Project File Date:  05/12/2015
+Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\arm_cortexM4lf_signal_converge_example.uvprojx
+Project File Date:  05/18/2015
 
 <h2>Output:</h2>
-Build target 'Audio-DSP'
-compiling dsp.c...
-linking...
-Program Size: Code=12008 RO-data=460 RW-data=1156 ZI-data=10652  
-FromELF: creating hex file...
-".\Audio-DSP\Audio-DSP.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling arm_signal_converge_data.c...
+compiling arm_signal_converge_example_f32.c...
+compiling math_helper.c...
+compiling system_ARMCM4.c...
+..\system_ARMCM4.c(25): error:  #5: cannot open source input file "ARMCM4.h": No such file or directory
+  #include "ARMCM4.h"
+..\system_ARMCM4.c: 0 warnings, 1 error
+assembling startup_ARMCM4.s...
+".\debug\arm_cortexM4lf_signal_converge_example.axf" - 1 Error(s), 0 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  \\vmware-host\Shared Folders\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Source\MDK-ARM\RTE
-  C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0
+  Z:\christoph\Development\EMBEDDED\ARM\STM32F4 Discovery\src\Audio-DSP\Libraries\CMSIS\DSP_Lib\Examples\arm_signal_converge_example\ARM\RTE
+  C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0
 
 <h2>Collection of Component Files used:</h2>
+Target not created.
 </pre>
 </body>
 </html>

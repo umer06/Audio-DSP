@@ -188,12 +188,12 @@ int32_t main(void)
        
       /* Execute the LMS Norm processing function*/  
  
-      arm_lms_norm_f32(&lmsNorm_instance, /* LMSNorm instance */ 
-		       wire1,                     /* Input signal */  
-		       wire2,			          /* Reference Signal */ 
-		       wire3, 			          /* Converged Signal */ 
-		       err_signal, 		          /* Error Signal, this will become small as the signal converges */ 
-		       BLOCKSIZE);		          /* BlockSize */ 
+      arm_lms_norm_f32(&lmsNorm_instance,   /* LMSNorm instance */ 
+		       wire1,                           /* Input signal */  
+		       wire2,			                      /* Reference Signal */ 
+		       wire3, 			                    /* Output (Converged) Signal */ 
+		       err_signal, 		                  /* Error Signal, this will become small as the signal converges */ 
+		       BLOCKSIZE);		                  /* BlockSize */ 
  
       /* apply overall gain */  
       arm_scale_f32(wire3, 5, wire3, BLOCKSIZE);	 /* in-place buffer */  
