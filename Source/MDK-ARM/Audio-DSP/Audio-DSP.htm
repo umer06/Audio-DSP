@@ -3,11 +3,11 @@
 <title>Static Call Graph - [.\Audio-DSP\Audio-DSP.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Audio-DSP\Audio-DSP.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Tue May 19 00:40:56 2015
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Tue May 19 12:29:08 2015
 <BR><P>
-<H3>Maximum Stack Usage =        184 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =          0 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
-main &rArr; WavePlayBack &rArr; WaveRecorderBeginSampling &rArr; WaveRecorderInit &rArr; PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+
 <P>
 <H3>
 Mutually Recursive functions
@@ -121,28 +121,16 @@ Function Pointers
 <H3>
 Global Symbols
 </H3>
-<P><STRONG><a name="[5e]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<P><STRONG><a name="[5e]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, entry.o(.ARM.Collect$$$$00000000))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(.text)
 </UL>
-<P><STRONG><a name="[b6]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
-
-<P><STRONG><a name="[5f]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<P><STRONG><a name="[5f]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, entry5.o(.ARM.Collect$$$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
 
-<P><STRONG><a name="[74]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<P><STRONG><a name="[74]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, entry5.o(.ARM.Collect$$$$00000004))
 <BR><BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
-
-<P><STRONG><a name="[b7]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
-
-<P><STRONG><a name="[b8]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
-
-<P><STRONG><a name="[b9]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
-
-<P><STRONG><a name="[ba]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
-
-<P><STRONG><a name="[bb]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
 
 <P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
@@ -379,10 +367,8 @@ Global Symbols
 <P><STRONG><a name="[a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[61]"></a>PDM_Filter_Init</STRONG> (Thumb, 222 bytes, Stack size 40 bytes, pdm_filter.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
+<P><STRONG><a name="[61]"></a>PDM_Filter_Init</STRONG> (Thumb, 222 bytes, Stack size 0 bytes, pdm_filter.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
@@ -393,30 +379,22 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 </UL>
 
-<P><STRONG><a name="[a1]"></a>PDM_Filter_64_LSB</STRONG> (Thumb, 660 bytes, Stack size 144 bytes, pdm_filter.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = PDM_Filter_64_LSB
-</UL>
-<BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
+<P><STRONG><a name="[a1]"></a>PDM_Filter_64_LSB</STRONG> (Thumb, 660 bytes, Stack size 0 bytes, pdm_filter.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
 </UL>
 
-<P><STRONG><a name="[bc]"></a>PDM_Filter_80_LSB</STRONG> (Thumb, 692 bytes, Stack size 144 bytes, pdm_filter.o(.text), UNUSED)
+<P><STRONG><a name="[b5]"></a>arm_fir_fast_q15</STRONG> (Thumb, 478 bytes, Stack size 0 bytes, arm_fir_fast_q15.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
+</UL>
 
-<P><STRONG><a name="[bd]"></a>PDM_Filter_64_MSB</STRONG> (Thumb, 658 bytes, Stack size 144 bytes, pdm_filter.o(.text), UNUSED)
-
-<P><STRONG><a name="[be]"></a>PDM_Filter_80_MSB</STRONG> (Thumb, 830 bytes, Stack size 148 bytes, pdm_filter.o(.text), UNUSED)
-
-<P><STRONG><a name="[b5]"></a>arm_fir_fast_q15</STRONG> (Thumb, 478 bytes, Stack size 64 bytes, arm_fir_fast_q15.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = arm_fir_fast_q15
+<P><STRONG><a name="[69]"></a>arm_fir_init_q15</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, arm_fir_init_q15.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
 </UL>
 
-<P><STRONG><a name="[69]"></a>arm_fir_init_q15</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, arm_fir_init_q15.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arm_fir_init_q15
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
-</UL>
-<BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
+<P><STRONG><a name="[b6]"></a>arm_copy_q15</STRONG> (Thumb, 126 bytes, Stack size 0 bytes, arm_copy_q15.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
 </UL>
 
 <P><STRONG><a name="[6b]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text))
@@ -424,21 +402,13 @@ Global Symbols
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 
-<P><STRONG><a name="[bf]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
-
-<P><STRONG><a name="[c0]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
-
 <P><STRONG><a name="[6a]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arm_fir_init_q15
 </UL>
 
-<P><STRONG><a name="[c1]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
-
-<P><STRONG><a name="[c2]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
-
-<P><STRONG><a name="[6c]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[6c]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
@@ -446,19 +416,15 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
 
-<P><STRONG><a name="[c3]"></a>scalbnf</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, fscalb.o(.text), UNUSED)
-
-<P><STRONG><a name="[65]"></a>__aeabi_dadd</STRONG> (Thumb, 322 bytes, Stack size 48 bytes, dadd.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
+<P><STRONG><a name="[65]"></a>__aeabi_dadd</STRONG> (Thumb, 322 bytes, Stack size 0 bytes, dadd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
 <LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
 
 <P><STRONG><a name="[71]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
@@ -469,34 +435,26 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[68]"></a>__aeabi_dmul</STRONG> (Thumb, 228 bytes, Stack size 48 bytes, dmul.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<P><STRONG><a name="[68]"></a>__aeabi_dmul</STRONG> (Thumb, 228 bytes, Stack size 0 bytes, dmul.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
 
-<P><STRONG><a name="[63]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = __aeabi_ddiv &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<P><STRONG><a name="[63]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 0 bytes, ddiv.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
 
-<P><STRONG><a name="[62]"></a>__aeabi_ui2d</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, dfltui.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = __aeabi_ui2d &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<P><STRONG><a name="[62]"></a>__aeabi_ui2d</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, dfltui.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
 
-<P><STRONG><a name="[67]"></a>__aeabi_d2uiz</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, dfixui.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_d2uiz
-</UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<P><STRONG><a name="[67]"></a>__aeabi_d2uiz</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, dfixui.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_Init
 </UL>
@@ -510,35 +468,23 @@ Global Symbols
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[c4]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
-
 <P><STRONG><a name="[73]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
 </UL>
 
-<P><STRONG><a name="[c5]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
-
 <P><STRONG><a name="[6e]"></a>__aeabi_lasr</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, llsshr.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[c6]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
-
-<P><STRONG><a name="[c7]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, iusefp.o(.text), UNUSED)
-
-<P><STRONG><a name="[70]"></a>_double_round</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, depilogue.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _double_round
-</UL>
-<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<P><STRONG><a name="[70]"></a>_double_round</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, depilogue.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[6f]"></a>_double_epilogue</STRONG> (Thumb, 156 bytes, Stack size 32 bytes, depilogue.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<P><STRONG><a name="[6f]"></a>_double_epilogue</STRONG> (Thumb, 156 bytes, Stack size 0 bytes, depilogue.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 <LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
@@ -553,16 +499,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
 </UL>
 
-<P><STRONG><a name="[c8]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
-
-<P><STRONG><a name="[c9]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
-
-<P><STRONG><a name="[ca]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
-
-<P><STRONG><a name="[7c]"></a>Audio_MAL_Play</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_Play))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = Audio_MAL_Play &rArr; DMA_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Init
+<P><STRONG><a name="[7c]"></a>Audio_MAL_Play</STRONG> (Thumb, 86 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_Play))
+<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Init
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Cmd
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Cmd
 </UL>
@@ -581,29 +519,21 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
-<P><STRONG><a name="[93]"></a>DAC_Init</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, stm32f4xx_dac.o(i.DAC_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = DAC_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
+<P><STRONG><a name="[93]"></a>DAC_Init</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, stm32f4xx_dac.o(i.DAC_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
-<P><STRONG><a name="[a5]"></a>DAC_SetChannel1Data</STRONG> (Thumb, 22 bytes, Stack size 4 bytes, stm32f4xx_dac.o(i.DAC_SetChannel1Data))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = DAC_SetChannel1Data
-</UL>
-<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
+<P><STRONG><a name="[a5]"></a>DAC_SetChannel1Data</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f4xx_dac.o(i.DAC_SetChannel1Data))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 </UL>
 
 <P><STRONG><a name="[15]"></a>DMA1_Stream0_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.DMA1_Stream0_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = DMA1_Stream0_IRQHandler &rArr; Audio_MAL_IRQHandler &rArr; EVAL_AUDIO_TransferComplete_CallBack &rArr; Audio_MAL_Play &rArr; DMA_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
+<BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
 <P><STRONG><a name="[39]"></a>DMA1_Stream7_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.DMA1_Stream7_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = DMA1_Stream7_IRQHandler &rArr; Audio_MAL_IRQHandler &rArr; EVAL_AUDIO_TransferComplete_CallBack &rArr; Audio_MAL_Play &rArr; DMA_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
+<BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
@@ -617,10 +547,8 @@ Global Symbols
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_Play
 </UL>
 
-<P><STRONG><a name="[95]"></a>DMA_DeInit</STRONG> (Thumb, 298 bytes, Stack size 24 bytes, stm32f4xx_dma.o(i.DMA_DeInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DMA_DeInit
-</UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
+<P><STRONG><a name="[95]"></a>DMA_DeInit</STRONG> (Thumb, 298 bytes, Stack size 0 bytes, stm32f4xx_dma.o(i.DMA_DeInit))
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
 <P><STRONG><a name="[77]"></a>DMA_GetCmdStatus</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f4xx_dma.o(i.DMA_GetCmdStatus))
@@ -635,10 +563,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
-<P><STRONG><a name="[79]"></a>DMA_Init</STRONG> (Thumb, 116 bytes, Stack size 4 bytes, stm32f4xx_dma.o(i.DMA_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = DMA_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
+<P><STRONG><a name="[79]"></a>DMA_Init</STRONG> (Thumb, 116 bytes, Stack size 0 bytes, stm32f4xx_dma.o(i.DMA_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_Play
 </UL>
@@ -650,10 +576,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 </UL>
 
-<P><STRONG><a name="[88]"></a>EVAL_AUDIO_Init</STRONG> (Thumb, 964 bytes, Stack size 72 bytes, stm32f4_discovery_audio_codec.o(i.EVAL_AUDIO_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = EVAL_AUDIO_Init &rArr; Codec_WriteRegister &rArr; I2C_GetFlagStatus
-</UL>
-<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DMACmd
+<P><STRONG><a name="[88]"></a>EVAL_AUDIO_Init</STRONG> (Thumb, 964 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.EVAL_AUDIO_Init))
+<BR><BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DMACmd
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Init
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_DeInit
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Cmd
@@ -681,26 +605,20 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayBack
 </UL>
 
-<P><STRONG><a name="[7b]"></a>EVAL_AUDIO_TransferComplete_CallBack</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, headphone.o(i.EVAL_AUDIO_TransferComplete_CallBack))
-<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = EVAL_AUDIO_TransferComplete_CallBack &rArr; Audio_MAL_Play &rArr; DMA_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_Play
+<P><STRONG><a name="[7b]"></a>EVAL_AUDIO_TransferComplete_CallBack</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, headphone.o(i.EVAL_AUDIO_TransferComplete_CallBack))
+<BR><BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_Play
 </UL>
 <BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_IRQHandler
 </UL>
 
-<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.EXTI0_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EXTI0_IRQHandler
-</UL>
-<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_GetITStatus
+<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.EXTI0_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_GetITStatus
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_ClearITPendingBit
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[11]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.EXTI1_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EXTI1_IRQHandler
-</UL>
-<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDToggle
+<P><STRONG><a name="[11]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.EXTI1_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDToggle
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_GetITStatus
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_ClearITPendingBit
 </UL>
@@ -720,10 +638,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_PBInit
 </UL>
 
-<P><STRONG><a name="[8a]"></a>GPIO_Init</STRONG> (Thumb, 144 bytes, Stack size 20 bytes, stm32f4xx_gpio.o(i.GPIO_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = GPIO_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
+<P><STRONG><a name="[8a]"></a>GPIO_Init</STRONG> (Thumb, 144 bytes, Stack size 0 bytes, stm32f4xx_gpio.o(i.GPIO_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_PBInit
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDInit
@@ -761,10 +677,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
-<P><STRONG><a name="[8e]"></a>I2C_DeInit</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, stm32f4xx_i2c.o(i.I2C_DeInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = I2C_DeInit
-</UL>
-<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+<P><STRONG><a name="[8e]"></a>I2C_DeInit</STRONG> (Thumb, 92 bytes, Stack size 0 bytes, stm32f4xx_i2c.o(i.I2C_DeInit))
+<BR><BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
@@ -777,16 +691,12 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Codec_WriteRegister
 </UL>
 
-<P><STRONG><a name="[7f]"></a>I2C_GetFlagStatus</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, stm32f4xx_i2c.o(i.I2C_GetFlagStatus))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = I2C_GetFlagStatus
-</UL>
-<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Codec_WriteRegister
+<P><STRONG><a name="[7f]"></a>I2C_GetFlagStatus</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, stm32f4xx_i2c.o(i.I2C_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Codec_WriteRegister
 </UL>
 
-<P><STRONG><a name="[90]"></a>I2C_Init</STRONG> (Thumb, 188 bytes, Stack size 32 bytes, stm32f4xx_i2c.o(i.I2C_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = I2C_Init &rArr; RCC_GetClocksFreq
-</UL>
-<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+<P><STRONG><a name="[90]"></a>I2C_Init</STRONG> (Thumb, 188 bytes, Stack size 0 bytes, stm32f4xx_i2c.o(i.I2C_Init))
+<BR><BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
@@ -808,10 +718,8 @@ Global Symbols
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Audio_MAL_Play
 </UL>
 
-<P><STRONG><a name="[92]"></a>I2S_Init</STRONG> (Thumb, 224 bytes, Stack size 12 bytes, stm32f4xx_spi.o(i.I2S_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = I2S_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
+<P><STRONG><a name="[92]"></a>I2S_Init</STRONG> (Thumb, 224 bytes, Stack size 0 bytes, stm32f4xx_spi.o(i.I2S_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
@@ -825,10 +733,8 @@ Global Symbols
 <P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.NMI_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[97]"></a>NVIC_Init</STRONG> (Thumb, 106 bytes, Stack size 4 bytes, misc.o(i.NVIC_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = NVIC_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
+<P><STRONG><a name="[97]"></a>NVIC_Init</STRONG> (Thumb, 106 bytes, Stack size 0 bytes, misc.o(i.NVIC_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_PBInit
 </UL>
@@ -865,27 +771,21 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DeInit
 </UL>
 
-<P><STRONG><a name="[9e]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 150 bytes, Stack size 8 bytes, stm32f4xx_rcc.o(i.RCC_GetClocksFreq))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RCC_GetClocksFreq
-</UL>
-<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Init
+<P><STRONG><a name="[9e]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 150 bytes, Stack size 0 bytes, stm32f4xx_rcc.o(i.RCC_GetClocksFreq))
+<BR><BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Init
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, microphone.o(i.SPI2_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SPI2_IRQHandler &rArr; PDM_Filter_64_LSB
-</UL>
-<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
+<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 76 bytes, Stack size 0 bytes, microphone.o(i.SPI2_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
 <LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetITStatus
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDM_Filter_64_LSB
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderCallback
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[3d]"></a>SPI3_IRQHandler</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.SPI3_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SPI3_IRQHandler &rArr; DAC_SetChannel1Data
-</UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
+<P><STRONG><a name="[3d]"></a>SPI3_IRQHandler</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.SPI3_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
 <LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetChannel1Data
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_GetSampleCallBack
@@ -896,11 +796,9 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
 </UL>
 
-<P><STRONG><a name="[91]"></a>SPI_I2S_DeInit</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, stm32f4xx_spi.o(i.SPI_I2S_DeInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI_I2S_DeInit
-</UL>
-<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+<P><STRONG><a name="[91]"></a>SPI_I2S_DeInit</STRONG> (Thumb, 92 bytes, Stack size 0 bytes, stm32f4xx_spi.o(i.SPI_I2S_DeInit))
+<BR><BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
@@ -928,10 +826,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 </UL>
 
-<P><STRONG><a name="[a8]"></a>STM_EVAL_LEDInit</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f4_discovery.o(i.STM_EVAL_LEDInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = STM_EVAL_LEDInit &rArr; GPIO_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
+<P><STRONG><a name="[a8]"></a>STM_EVAL_LEDInit</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, stm32f4_discovery.o(i.STM_EVAL_LEDInit))
+<BR><BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -953,10 +849,8 @@ Global Symbols
 <LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI1_IRQHandler
 </UL>
 
-<P><STRONG><a name="[a9]"></a>STM_EVAL_PBInit</STRONG> (Thumb, 140 bytes, Stack size 40 bytes, stm32f4_discovery.o(i.STM_EVAL_PBInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = STM_EVAL_PBInit &rArr; GPIO_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSCFG_EXTILineConfig
+<P><STRONG><a name="[a9]"></a>STM_EVAL_PBInit</STRONG> (Thumb, 140 bytes, Stack size 0 bytes, stm32f4_discovery.o(i.STM_EVAL_PBInit))
+<BR><BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSCFG_EXTILineConfig
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_Init
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
@@ -973,18 +867,14 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_PBInit
 </UL>
 
-<P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 214 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.SysTick_Handler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SysTick_Handler
-</UL>
-<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDToggle
+<P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 214 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.SysTick_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDToggle
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOff
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOn
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[5d]"></a>SystemInit</STRONG> (Thumb, 254 bytes, Stack size 8 bytes, system_stm32f4xx.o(i.SystemInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SystemInit
-</UL>
+<P><STRONG><a name="[5d]"></a>SystemInit</STRONG> (Thumb, 254 bytes, Stack size 0 bytes, system_stm32f4xx.o(i.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(.text)
 </UL>
 <P><STRONG><a name="[5]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.UsageFault_Handler))
@@ -995,9 +885,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
 <P><STRONG><a name="[af]"></a>WavePlayBack</STRONG> (Thumb, 270 bytes, Stack size 0 bytes, headphone.o(i.WavePlayBack))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = WavePlayBack &rArr; WaveRecorderBeginSampling &rArr; WaveRecorderInit &rArr; PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
+<BR><BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dsp
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderBeginSampling
 <LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_SetAudioInterface
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EVAL_AUDIO_Init
@@ -1006,29 +894,23 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[b0]"></a>WaveRecorderBeginSampling</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, microphone.o(i.WaveRecorderBeginSampling))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = WaveRecorderBeginSampling &rArr; WaveRecorderInit &rArr; PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ITConfig
+<P><STRONG><a name="[b0]"></a>WaveRecorderBeginSampling</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, microphone.o(i.WaveRecorderBeginSampling))
+<BR><BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ITConfig
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Cmd
 <LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayBack
 </UL>
 
-<P><STRONG><a name="[a2]"></a>WaveRecorderCallback</STRONG> (Thumb, 118 bytes, Stack size 24 bytes, headphone.o(i.WaveRecorderCallback))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = WaveRecorderCallback
-</UL>
-<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOff
+<P><STRONG><a name="[a2]"></a>WaveRecorderCallback</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, headphone.o(i.WaveRecorderCallback))
+<BR><BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOff
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOn
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
 </UL>
 
-<P><STRONG><a name="[b3]"></a>WaveRecorderInit</STRONG> (Thumb, 274 bytes, Stack size 48 bytes, microphone.o(i.WaveRecorderInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = WaveRecorderInit &rArr; PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ITConfig
+<P><STRONG><a name="[b3]"></a>WaveRecorderInit</STRONG> (Thumb, 274 bytes, Stack size 0 bytes, microphone.o(i.WaveRecorderInit))
+<BR><BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ITConfig
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DeInit
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
@@ -1042,25 +924,16 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaveRecorderBeginSampling
 </UL>
 
-<P><STRONG><a name="[cb]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
-
-<P><STRONG><a name="[cc]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
-
-<P><STRONG><a name="[cd]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
-
-<P><STRONG><a name="[b2]"></a>dsp</STRONG> (Thumb, 170 bytes, Stack size 32 bytes, dsp.o(i.dsp))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = dsp &rArr; arm_fir_fast_q15
-</UL>
-<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arm_fir_init_q15
+<P><STRONG><a name="[b2]"></a>dsp</STRONG> (Thumb, 126 bytes, Stack size 0 bytes, dsp.o(i.dsp))
+<BR><BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arm_fir_init_q15
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arm_fir_fast_q15
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arm_copy_q15
 </UL>
 <BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayBack
 </UL>
 
 <P><STRONG><a name="[5c]"></a>main</STRONG> (Thumb, 100 bytes, Stack size 0 bytes, main.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = main &rArr; WavePlayBack &rArr; WaveRecorderBeginSampling &rArr; WaveRecorderInit &rArr; PDM_Filter_Init &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
-</UL>
-<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayBack
+<BR><BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayBack
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_PBInit
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOn
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDInit
@@ -1071,10 +944,8 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[75]"></a>Audio_MAL_IRQHandler</STRONG> (Thumb, 156 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Audio_MAL_IRQHandler &rArr; EVAL_AUDIO_TransferComplete_CallBack &rArr; Audio_MAL_Play &rArr; DMA_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Init
+<P><STRONG><a name="[75]"></a>Audio_MAL_IRQHandler</STRONG> (Thumb, 156 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Init
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_GetFlagStatus
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_GetCmdStatus
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Cmd
@@ -1085,10 +956,8 @@ Local Symbols
 <LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Stream0_IRQHandler
 </UL>
 
-<P><STRONG><a name="[7e]"></a>Codec_WriteRegister</STRONG> (Thumb, 632 bytes, Stack size 48 bytes, stm32f4_discovery_audio_codec.o(i.Codec_WriteRegister))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = Codec_WriteRegister &rArr; I2C_GetFlagStatus
-</UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_SendData
+<P><STRONG><a name="[7e]"></a>Codec_WriteRegister</STRONG> (Thumb, 632 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.Codec_WriteRegister))
+<BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_SendData
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Send7bitAddress
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_ReceiveData
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_GetFlagStatus

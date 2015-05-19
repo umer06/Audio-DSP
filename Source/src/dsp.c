@@ -1,3 +1,4 @@
+
 // local includes
 #include <dsp.h>
 
@@ -42,7 +43,6 @@ void dsp(int16_t* buffer, int length)
 	// only enable the filter if the user button is pressed
 	if (user_mode & 1)
 	{
-    int i;
 	  // we initiate the filter only if needed to prevent clitches at the beginning of new buffers
 		if (firstStart == false || old_user_mode != user_mode)
 		{
@@ -55,8 +55,7 @@ void dsp(int16_t* buffer, int length)
 	  arm_fir_fast_q15(&FIR, buffer, outSignal, BLOCKSIZE);
 
   	// copy the result
-	  for(i = 0; i < length; i++)
-      buffer[i] = outSignal[i];
+	  arm_copy_q15(outSignal, buffer, length);
   }
 }
 

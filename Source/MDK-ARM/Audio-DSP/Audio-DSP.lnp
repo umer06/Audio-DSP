@@ -17,9 +17,10 @@
 ".\audio-dsp\stm32f4xx_rcc.o"
 ".\audio-dsp\stm32f4xx_spi.o"
 ".\audio-dsp\stm32f4xx_exti.o"
+".\audio-dsp\stm32f4xx_rng.o"
 ".\audio-dsp\startup_stm32f4xx.o"
 "..\..\Libraries\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
---library_type=microlib --strict --scatter ".\Audio-DSP\Audio-DSP.sct"
+--library_type=microlib --nodebug --strict --scatter ".\Audio-DSP\Audio-DSP.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Audio-DSP.map" -o .\Audio-DSP\Audio-DSP.axf
