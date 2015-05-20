@@ -1,5 +1,13 @@
-
-// local includes
+/**
+ * @file         dsp.c
+ * @version      1.0
+ * @date         2015
+ * @author       Christoph Lauer
+ * @compiler     armcc
+ * @copyright    Christoph Lauer engineering
+ */
+ 
+ // local includes
 #include <dsp.h>
 
 // arm cmsis library includes
@@ -33,7 +41,7 @@ q15_t fir_coeffs_hp[NUM_FIR_TAPS] = { -654,  483,  393,  321,  222,   76, -108, 
                                      -3432,-2290,-1148, -160,  558,  953, 1032,  855,  520,
                                        136, -200, -422, -501, -447, -299, -108,   76,  222,
                                        321,  393,  483, -654,    0,    0,    0,    0,    0,
-                                       0,    0,}; // high pass at 1.5KHz with 40dB at 1KHz for SR=16KHz
+                                         0,    0,}; // high pass at 1.5KHz with 40dB at 1KHz for SR=16KHz
 q15_t fir_state[NUM_FIR_TAPS + BLOCKSIZE];
 bool firstStart = false;
 
@@ -53,7 +61,7 @@ void dsp(int16_t* buffer, int length)
 		
   	// process with FIR
 	  arm_fir_fast_q15(&FIR, buffer, outSignal, BLOCKSIZE);
-
+		
   	// copy the result
 	  arm_copy_q15(outSignal, buffer, length);
   }
@@ -62,13 +70,78 @@ void dsp(int16_t* buffer, int length)
 // we initialize and switch the filter here
 void initFilter()
 {
-	// apply the low pass filter
-	if (user_mode & 1)
-		arm_fir_init_q15(&FIR, NUM_FIR_TAPS, fir_coeffs_lp, fir_state, BLOCKSIZE);
-	// or applay the high pass filter depending on the user button switch mode
-	if (user_mode & 2)
-		arm_fir_init_q15(&FIR, NUM_FIR_TAPS, fir_coeffs_hp, fir_state, BLOCKSIZE);
+  // apply the low pass filter
+  if (user_mode & 1)
+    arm_fir_init_q15(&FIR, NUM_FIR_TAPS, fir_coeffs_lp, fir_state, BLOCKSIZE);
+  // or applay the high pass filter depending on the user button switch mode
+  if (user_mode & 2)
+    arm_fir_init_q15(&FIR, NUM_FIR_TAPS, fir_coeffs_hp, fir_state, BLOCKSIZE);
 }
+
+//-------------------------------------------------------------------------------------------------------
+
+/* below is a test environment for a noice cancelation with adaptive filters
+ // local includes
+#include <dsp.h>
+
+// arm cmsis library includes
+#define ARM_MATH_CM4
+#include "stm32f4xx.h"
+#include <arm_math.h>
+
+// arm c library includes
+#include <stdbool.h>
+
+// the user button switch
+extern volatile int user_mode;
+
+#define NUM_FIR_TAPS 128
+#define BLOCKSIZE    512
+#define MU           1
+
+// allocate the buffer signals and the filter coefficients on the heap
+arm_lms_instance_q15 LMS; 
+q15_t outSignal[BLOCKSIZE];
+q15_t refSignal[BLOCKSIZE];
+q15_t errSignal[BLOCKSIZE];
+q15_t fir_coeffs[NUM_FIR_TAPS];
+q15_t state[NUM_FIR_TAPS + BLOCKSIZE];
+
+bool firstStart = false;
+
+// the core dsp function
+void dsp(int16_t* buffer, int length)
+{
+	// this block is only processed one time while startup
+  if (firstStart == false)
+  {
+    // set the filter to an ideal filter
+		arm_fill_q15(1, fir_coeffs, NUM_FIR_TAPS);fir_coeffs[0] = 32767;
+		// set the reference random signal
+		arm_fill_q15(0, refSignal, BLOCKSIZE);
+		// initialize the adaptive filter 
+		arm_lms_init_q15(&LMS, NUM_FIR_TAPS, fir_coeffs, state, MU, BLOCKSIZE, 0);
+		// initialize the FIR filter 
+    firstStart = true;
+  }
+	
+	// store the reference silent signa in the train mode and switch back to normal mode
+  if (user_mode & 1)
+	{
+		// store the silent noise
+    arm_copy_q15(buffer, refSignal, BLOCKSIZE);
+    // set the train mode back
+    user_mode ++;
+	}
+	else 
+    // aplly the adaptive filter
+		arm_lms_q15(&LMS, buffer, refSignal, outSignal, errSignal, BLOCKSIZE);
+
+  // copy the result
+  arm_copy_q15(errSignal, buffer, BLOCKSIZE);
+}*/
+ 
+//--------------------------------------------------------------------------------------------------------- 
 
 /* --> Below the implementation of an iir filter function without the arm cmsis library
 // local includes

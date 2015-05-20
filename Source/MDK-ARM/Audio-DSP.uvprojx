@@ -50,8 +50,8 @@
           <OutputName>Audio-DSP</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>1</CreateHexFile>
-          <DebugInformation>1</DebugInformation>
+          <CreateHexFile>0</CreateHexFile>
+          <DebugInformation>0</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
@@ -507,6 +507,11 @@
               <FileName>stm32f4xx_exti.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_rng.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</FilePath>
             </File>
           </Files>
         </Group>
